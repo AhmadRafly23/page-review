@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container {
+  max-width: 1263px;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Parent-box {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Image {
+  float: left;
+  width: 50%;
+}
+
+.Bag {
+  width: 100%;
+}
+
+.Deskripsi {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+}
+
+.Info {
+  line-height: 1.8;
+  color: rgb(18, 11, 49);
+  font-size: 0.8rem;
+}
+
+.Price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Category {
+  color: #acaeb2;
+}
+
+.Title {
+  font-size: 25px;
+}
+
+.Discount {
+  margin: 6px 0px;
+}
+
+.List-benefits {
+  margin-top: 5px;
+  margin-left: 25px;
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+
+.Btn {
+  border: none;
+  background-color: #f58d42;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border-radius: 5px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Review-box {
+  clear: both;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Review-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Review-box img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  background-color: #b1b1b1;
+  border-radius: 50%;
+  float: left;
+  margin-right: 16px;
+}
+
+.Review-box .User h3 {
+  margin-bottom: 4px;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.Review-box .User p {
+  font-size: 13px;
+}
+
+.Review-box .Item {
+  width: 80%;
+  overflow: hidden;
+  margin-bottom: 24px;
 }
